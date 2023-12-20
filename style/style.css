@@ -23,7 +23,8 @@ body {
 
 
 .container {
-  margin-bottom: 20px; /* Add space between containers */
+  margin-bottom: 20px;
+  /* Add space between containers */
 }
 
 header,
@@ -55,9 +56,10 @@ header {
   margin-top: 64px;
 }
 
-.header-text-box h2, .header-text-box h3 {
-  font-size: 24px; 
-  color: #087f5b; 
+.header-text-box h2,
+.header-text-box h3 {
+  font-size: 24px;
+  color: #087f5b;
   margin-bottom: 16px;
 }
 
@@ -182,31 +184,33 @@ footer {
 
 .professional-title {
   padding: 20px 0;
-  background-color: #f8f9fa; 
+  background-color: #f8f9fa;
   text-align: center;
 }
 
 .professional-title h2 {
-  font-size: 28px; 
+  font-size: 28px;
   color: #343a40;
   margin-bottom: 15px;
 }
 
 .professional-title p {
-  font-size: 18px; 
-  color: #343a40; 
+  font-size: 18px;
+  color: #343a40;
   margin-bottom: 10px;
 }
 
 .new-website-testimonials {
   /* Add styles that match the new website's theme */
-  background-color: #f4f4f4; /* Example background color */
+  background-color: #f4f4f4;
+  /* Example background color */
   padding: 20px;
 }
 
 .new-website-wrapper {
   /* Wrapper styles */
-  max-width: 1200px; /* Adjust as needed */
+  max-width: 1200px;
+  /* Adjust as needed */
   margin: auto;
   padding: 20px;
 }
@@ -214,7 +218,8 @@ footer {
 .new-section-title {
   /* Title styling */
   text-align: center;
-  color: #333; /* Adjust color to match the new site */
+  color: #333;
+  /* Adjust color to match the new site */
   margin-bottom: 30px;
 }
 
@@ -226,9 +231,11 @@ footer {
 
 .new-testimonial-box {
   /* Testimonial box styling */
-  width: 30%; /* Adjust the width as needed */
+  width: 30%;
+  /* Adjust the width as needed */
   padding: 15px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Example shadow */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* Example shadow */
   margin: 10px;
   text-align: center;
 }
@@ -247,7 +254,8 @@ footer {
 
 .new-section-title {
   text-align: center;
-  color: #333; /* Adjust the color to match the new site's theme */
+  color: #333;
+  /* Adjust the color to match the new site's theme */
   margin-bottom: 30px;
 }
 
@@ -258,52 +266,60 @@ footer {
 }
 
 .new-feature-item {
-  width: 45%; /* Adjust based on layout preference */
+  width: 45%;
+  /* Adjust based on layout preference */
   padding: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Example box-shadow */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  /* Example box-shadow */
   margin: 10px;
   text-align: center;
 }
 
 .interactive-section {
-    background-color: #f4f4f4; /* Or any color that matches your theme */
-    padding: 20px 0;
+  background-color: #f4f4f4;
+  /* Or any color that matches your theme */
+  padding: 20px 0;
 }
 
 .interactive-section .container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
 }
 
 .interactive-col {
-  text-align: center; /* Center the content within the column */
+  text-align: center;
+  /* Center the content within the column */
   /* Additional styling as needed */
 }
 
 .interactive-section h2 {
-    color: #333; /* Adjust to match your theme */
-    margin-bottom: 15px;
+  color: #333;
+  /* Adjust to match your theme */
+  margin-bottom: 15px;
 }
 
-.interactive-section p, .interactive-section ul {
-    color: #666; /* Adjust to match your theme */
+.interactive-section p,
+.interactive-section ul {
+  color: #666;
+  /* Adjust to match your theme */
 }
 
 .btn-outline-success {
-    /* Style the button as needed */
-    color: #28a745;
-    border-color: #28a745;
-    margin-top: 10px; 
+  /* Style the button as needed */
+  color: #28a745;
+  border-color: #28a745;
+  margin-top: 10px;
 }
 
 .btn-outline-success:hover {
-    background-color: #28a745;
-    color: #fff;
+  background-color: #28a745;
+  color: #fff;
 }
 
 .professional-achievements {
-  background-color: #f4f4f4; /* Or any color that matches your theme */
+  background-color: #f4f4f4;
+  /* Or any color that matches your theme */
   padding: 20px 0;
 }
 
@@ -314,25 +330,29 @@ footer {
 }
 
 .professional-achievements h2 {
-  color: #333; /* Adjust to match your theme */
+  color: #333;
+  /* Adjust to match your theme */
   margin-bottom: 15px;
 }
 
 .professional-achievements ul {
-  list-style-type: none; /* Removes default bullet points */
+  list-style-type: none;
+  /* Removes default bullet points */
   padding: 0;
   text-align: center;
 }
 
 .professional-achievements li {
   margin-bottom: 10px;
-  color: #666; /* Adjust to match your theme */
-  font-size: 1em; /* Adjust size as necessary */
+  color: #666;
+  /* Adjust to match your theme */
+  font-size: 1em;
+  /* Adjust size as necessary */
 }
 
 @media (max-width: 768px) {
   .interactive-col {
-      text-align: left;
+    text-align: left;
   }
 }
 
@@ -342,7 +362,9 @@ label {
   margin-bottom: 5px;
 }
 
-input[type='text'], input[type='email'], input[type='submit'] {
+input[type='text'],
+input[type='email'],
+input[type='submit'] {
   display: block;
   width: 100%;
   padding: 10px;
@@ -351,22 +373,36 @@ input[type='text'], input[type='email'], input[type='submit'] {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-  header, .grid-3-cols, .new-row-container {
-      grid-template-columns: 1fr; /* Stack elements in one column */
+
+  header,
+  .grid-3-cols,
+  .new-row-container {
+    grid-template-columns: 1fr;
+    /* Stack elements in one column */
   }
 
-  .chair, .new-feature-item, .new-testimonial-box {
-      width: 100%; /* Full width for smaller screens */
-      margin: 10px 0; /* Adjust margins */
+  .chair,
+  .new-feature-item,
+  .new-testimonial-box {
+    width: 100%;
+    /* Full width for smaller screens */
+    margin: 10px 0;
+    /* Adjust margins */
   }
 
-  .interactive-col, .testimonial-box, .my-journey-section, .my-professional-journey {
-      text-align: left; /* Align text to the left for readability */
+  .interactive-col,
+  .testimonial-box,
+  .my-journey-section,
+  .my-professional-journey {
+    text-align: left;
+    /* Align text to the left for readability */
   }
 }
 
 /* Button Accessibility */
 .btn {
-  padding: 12px 20px; /* Larger padding for easier touch targets */
-  font-size: 16px; /* Legible font size */
+  padding: 12px 20px;
+  /* Larger padding for easier touch targets */
+  font-size: 16px;
+  /* Legible font size */
 }
